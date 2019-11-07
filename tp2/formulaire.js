@@ -17,7 +17,7 @@ else
  }
  else
  if(prenomValue.length==0){
-    document.querySelector("#error").textContent="le champ nom est vide ";
+    document.querySelector("#error").textContent="le champ prénom est vide ";
     document.querySelector("#resultat").textContent="";
 }
 else
