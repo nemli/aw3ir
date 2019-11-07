@@ -6,6 +6,7 @@ var adresseValue= document.querySelector("#adresse").value;
 var emailValue= document.querySelector("#email").value;
 
 if(nomValue.length==0){
+   
     document.querySelector("#error").textContent="le champ nom est vide ";
     document.querySelector("#resultat").textContent="";
 }
