@@ -15,10 +15,10 @@ $( document ).ready(function() {
         $('#myModal').modal("show");
 }
  else{
-    $(".modal-title").html("<strong>Bienvenue</strong> "+ document.querySelector("#Prenom").value +"</br> <strong> Vous êtes à:</strong>" +document.querySelector("#adresse").value);
-   
-     document.getElementById("Googlemaps").setAttribute("src","https://maps.googleapis.com/maps/api/staticmap?markers= "+adresseValue+" &zoom=12&size=240x200&scale=2&key=AIzaSyAkmvI9DazzG9p77IShsz_Di7-5Qn7zkcg");
-    $('#myModal1').modal("show");
+    $(".modal-title").html('<strong>Bienvenue</strong> '+ document.querySelector("#Prenom").value);
+    $(".modal-body").html('<strong>Vous êtes nés le</strong>'+dateValue+' <strong>et vous êtes à:</strong> <img src="https://maps.googleapis.com/maps/api/staticmap?markers= '+ adresseValue +'&zoom=12&size=240x200&scale=2&key=AIzaSyAkmvI9DazzG9p77IShsz_Di7-5Qn7zkcg"></img> ' + adresseValue+'');
+    
+    $('#myModal').modal("show");
  }
 
 
