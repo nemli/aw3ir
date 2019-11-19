@@ -24,8 +24,15 @@
               margin: 0 auto;
           }
         
-         h1{
+         h2{
              text-align: center;
+             text-decoration: underline;
+         }
+         .container{
+        margin-bottom: 4% ;
+        margin-left: 4% ;
+        margin-right: 4% ;
+        margin-top: 4% ;
          }
         </style>
         
@@ -34,35 +41,35 @@
         <!--<script src="main.js"></script>-->
     </head>
     <body>        
-        <h1>tp3</h1>
+        <h2>TP AW #3 : Bootstrap & jQuery</h2>
         <div class="container">
            <form method="POST" action="" id=formulaire>
                 <div class="form-group row">
-                        <label for="Nom" class="col-sm-2 col-form-label col-form-label-sm">Nom: </label>
+                        <label for="Nom" class="col-sm-2 col-form-label col-form-label-sm"><strong>Nom:</strong> </label>
                         <div class="col-sm-10">
                           <input type="text" class="form-control " id="nom" placeholder="Saisissez votre nom">
                         </div>
                 </div>
                 <div class="form-group row">
-                        <label for="Prenom" class="col-sm-2 col-form-label ">Prénom: </label>
+                        <label for="Prenom" class="col-sm-2 col-form-label "><strong>Prénom:</strong> </label>
                         <div class="col-sm-10">
                           <input type="text" class="form-control " id="Prenom" placeholder="Saisissez votre prénom">
                         </div>
                 </div>
                 <div class="form-group row">
-                        <label for="datedenaissance" class="col-sm-2 col-form-label ">Date de naissance: </label>
+                        <label for="datedenaissance" class="col-sm-2 col-form-label "><strong>Date de naissance:</strong> </label>
                         <div class="col-sm-10">
-                          <input type="date" class="form-control " id="datedenaissance" placeholder="jj/mm/aaaa">
+                          <input type="date" class="form-control " id="datedenaissance" placeholder="dd/mm/yy">
                         </div>
                 </div>
                 <div class="form-group row">
-                        <label for="adresse" class="col-sm-2 col-form-label ">Adresse: </label>
+                        <label for="adresse" class="col-sm-2 col-form-label "><strong>Adresse:</strong> </label>
                         <div class="col-sm-10">
-                          <input type="text" class="form-control " id="adresse" placeholder="Saisissez votre Adresse">
+                          <input type="text"  class="form-control " id="adresse" placeholder="Saisissez votre Adresse">
                         </div>
                 </div>
                 <div class="form-group row">
-                        <label for="email" class="col-sm-2 col-form-label ">Email: </label>
+                        <label for="email" class="col-sm-2 col-form-label "><strong>Email:</strong> </label>
                         <div class="col-sm-10">
                           <input type="email" class="form-control " id="email" placeholder="Saisissez votre email">
                         </div>
@@ -78,7 +85,7 @@
       <div class="modal-dialog" role="document">
         <div class="modal-content">
           <div class="modal-header">
-            <h5 class="modal-title">Modal title</h5>
+            <h5 class="modal-title">Message d'erreur</h5>
             <button type="button" class="close" data-dismiss="modal" aria-label="Close">
               <span aria-hidden="true">&times;</span>
             </button>
@@ -87,7 +94,7 @@
             <p> veuillez remplir tous les champs svp</p>
           </div>
           <div class="modal-footer">
-            <button type="button" class="btn btn-primary">Save changes</button>
+            <button type="button" class="btn btn-primary" data-dismiss="modal">ok</button>
             <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
           </div>
         </div>
@@ -99,16 +106,17 @@
       <div class="modal-dialog" role="document">
         <div class="modal-content">
           <div class="modal-header">
-            <h5 class="modal-title">Modal title</h5>
+            <h5 class="modal-title"> </h5>
             <button type="button" class="close" data-dismiss="modal" aria-label="Close">
               <span aria-hidden="true">&times;</span>
             </button>
           </div>
           <div class="modal-body">
-            <p> DJSGFH.NDXFHIJ§</p>
+            
+            <img id="Googlemaps" src=""> </img>
           </div>
           <div class="modal-footer">
-            <button type="button" class="btn btn-primary">Save changes</button>
+            <button type="button" class="btn btn-primary" data-dismiss="modal">ok</button>
             <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
           </div>
         </div>
