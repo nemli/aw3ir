@@ -1,4 +1,56 @@
-h1{
-    color: rgb(124, 18, 41);
+body{
+    background-color:gray;              
+    font-family: system, -apple-system, ".SFNSText-Regular", "San Francisco", "Roboto", "Segoe UI", "Helvetica Neue", "Lucida Grande", sans-serif;
+    font-size: 16px;
+    margin: 0 auto;
+    max-width: 800px;              
 }
-p#h2#h1.toto{ height: 5px;}
+a:hover{
+
+    text-decoration-color:rgb(211, 202, 186);
+}
+tr:nth-child(odd){
+
+    background-color: rgb(210, 89, 221);
+
+}
+tr:hover{
+
+    background-color: rgb(221, 200, 107);
+
+}
+
+img:hover{
+transform: scale(8);
+}
+
+
+table{
+background-color: white;
+
+}
+.titre1{
+    font-size:large;
+    font-weight: bold;
+    text-align: center;
+}
+.titre2{
+    font-size:large;
+    font-weight: bold;
+    text-align:left              
+
+}
+
+@media only screen and (max-width: 600px) {
+    body {
+        background-color: rgb(173, 128, 216);
+    }
+}
+
+.contour{   
+    border: 2px solid black;
+
+    width: 23%;
+    line-height: 50%;
+    
+}
