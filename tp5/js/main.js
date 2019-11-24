@@ -101,7 +101,8 @@ window.onload = function () {
                             app.message = 'Météo introuvable pour ' + _city.name 
                                             + ' (' + json.message+ ')';
                         }        
-                    });         
+                    });    
+                    document.getElementById("supprimerchargement").click();     
                 }
         }
     });
