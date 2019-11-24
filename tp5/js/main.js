@@ -102,7 +102,7 @@ window.onload = function () {
                                             + ' (' + json.message+ ')';
                         }        
                     });    
-                    document.getElementById("supprimerchargement").click();     
+                        
                 }
         }
     });
