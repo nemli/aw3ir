@@ -3,18 +3,18 @@
     <head>
         <meta charset="utf-8">
         <title>TP3</title>
-
         <!-- Place favicon.ico in the root directory -->
         <!-- jquery pour pouvoir utiliser les composants JS de boostap (modal, tooltip...) -->
-        <script src="js/jquery-3.2.1.slim.min.js"></script>
+        <script src="https://code.jquery.com/jquery-3.4.1.js" ></script>  <!-- la laibraire JQUERY -->
         <script src="js/popper.min.js"></script>
         <script src="js/bootstrap.min.js"></script>
         <script src="js/form-jquery-validation.js"></script>
-        
         <!-- CSS boostrap -->
-        <link rel="stylesheet" href="css/bootstrap.min.css">
-       
-     
+        <link rel="stylesheet" href="css/bootstrap.min.css">    
+        <!-- la fonction datepicker se trouve dans la librairie jquery-ui -->
+	 	<script src=" https://code.jquery.com/ui/1.10.4/jquery-ui.js" type="text/javascript" > </script> 
+     <!-- le CSS qui vient avec --> 
+        <link rel="stylesheet" href=" https://code.jquery.com/ui/1.10.4/themes/ui-lightness/jquery-ui.css">
         <style>
           body{
              background-color: #e9ebee;              
@@ -57,7 +57,7 @@
                 <div class="form-group row">
                         <label for="datedenaissance" class="col-sm-2 col-form-label "><strong>Date de naissance:</strong> </label>
                         <div class="col-sm-10">
-                          <input type="date" class="form-control " id="datedenaissance"name="datedenaissance" placeholder="JJ/MM/AAAA" >
+                          <input type="text" class="form-control " id="datedenaissance"name="datedenaissance" placeholder="dd/mm/yy" >
                         </div>
                 </div>
                 <div class="form-group row">
