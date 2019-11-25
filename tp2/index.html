@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <title>TP2-aw</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="Style.css" />
+    <script  src="formulaire.js"></script>
+
+</head>
+<body>
+ <h1>Saisie d'une fiche "personne"</h1>
+  <div id="formulaire">
+     <form method="post" action="" >
+      <p> 
+            <label for="nom"><strong>Nom:</strong></label>
+          <input type="text" id="nom" name="nom" minlength="5" maxlength="20" />
+        </p>
+      <p> 
+            <label for="prenom"><strong>Prénom:</strong></label>
+          <input type="text" id="prenom" name="prenom" minlength="5" maxlength="20" />
+        </p>
+      <p> 
+            <label for="datedenaissance"><strong>Date de naissance:</strong></label>
+           <input type="date" id="datedenaissance" name="datedenaissance" placeholder="JJ/MM/AAAA" />
+        </p>
+      <p>  
+            <label for="adresse"><strong>Adresse:</strong></label>
+           <input type="text" id="adresse" name="adresse" minlength="5" maxlength="50" />
+         </p>
+      <p>  
+            <label for="email"><strong>Mail:</strong></label>
+           <input type="email" id="email" name="email" required  maxlength="30" placeholder="exemple@gmail.com"/>
+        </p>          
+      <p>  
+           <label for="button"></label>
+           <input type="button"  value="Valider"  onclick="validation()" />
+        </p>           
+        
+    </form>
+ </div>
+ <div id="error"></div>
+ <div id="space"></div>
+ <div id= "resultat"> </div>
+
+</body>
+
+</html>
