@@ -21,4 +21,8 @@ $( document ).ready(function() {
  }
 
     }
+    $( document ).ready(function() {
+      $( "#datedenaissance" ).datepicker({dateFormat: 'dd/mm/yy', maxDate:new Date()});
+     
+       });
     
