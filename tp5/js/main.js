@@ -1,5 +1,5 @@
 var app;
-window.onload = function () {
+window.onload = function () { 
     app = new Vue({
         el: '#weatherApp', // cible l'élement HTML où nous pourrons utiliser toutes les variables ci-dessous
         data: {
